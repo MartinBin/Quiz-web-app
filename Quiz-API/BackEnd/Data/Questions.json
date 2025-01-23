@@ -2,9 +2,9 @@
   {
     "Id": 1,
     "Type": 0,
-    "Content": "",
-    "Answers": ["","","",""],
-    "CorrectAnswers": [""]
+    "Content": "Which programming language is better?",
+    "Answers": ["JavaScript","TypeScript"],
+    "CorrectAnswers": ["TypeScript"]
   },
   {
     "Id": 2,

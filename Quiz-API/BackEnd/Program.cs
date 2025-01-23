@@ -14,6 +14,7 @@ builder.Services.AddDbContext<ApiContext>(options =>
 
 builder.Services.AddScoped<CalculationService>();
 builder.Services.AddScoped<QuestionService>();
+builder.Services.AddScoped<UserService>();
 
 var app = builder.Build();
 

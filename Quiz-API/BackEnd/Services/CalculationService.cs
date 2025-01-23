@@ -15,17 +15,18 @@ public class CalculationService
     }
     public int radioButtonsScore(QuestionDto questionDto)
     {
+        if (questionDto.Selected.FirstOrDefault() == null) return 0;
+        
         Question question = _context.Questions.Where(x=>x.Id==questionDto.Id).First();
         int score = 0;
-        if (questionDto.Selected.Equals(question.CorrectAnswers))
-        {
-            score += 100;
-        }
+        if (questionDto.Selected.FirstOrDefault().Equals(question.CorrectAnswers.FirstOrDefault())) score += 100;
         return score;
     }
 
     public int checkboxScore(QuestionDto questionDto)
     {
+        if (questionDto.Selected.FirstOrDefault() == null) return 0;
+        
         Question question = _context.Questions.Where(x=>x.Id==questionDto.Id).First();
         int score = 0;
         int correctAnswers = 0;
@@ -37,20 +38,20 @@ public class CalculationService
                 correctAnswers++;
             }
         }
-        score = (100/goodAnswers)*correctAnswers;
+        score = (int)Math.Ceiling((double)((100/goodAnswers)*correctAnswers));
         return score;
     }
 
     public int textboxScore(QuestionDto questionDto)
     {
+        if (questionDto.Selected.FirstOrDefault() == null) return 0;
+        
         Question question = _context.Questions.Where(x=>x.Id==questionDto.Id).First();
         int score = 0;
         string correctAnswer = question.CorrectAnswers.FirstOrDefault().ToLower();
         string selected = questionDto.Selected.FirstOrDefault().ToLower();
-        if (correctAnswer.Equals(selected))
-        {
-            score += 100;
-        }
+        
+        if (correctAnswer.Equals(selected)) score += 100;
         return score;
     }
 }
