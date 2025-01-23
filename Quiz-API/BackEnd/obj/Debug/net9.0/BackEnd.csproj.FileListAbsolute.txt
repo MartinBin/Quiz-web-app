@@ -10,14 +10,6 @@
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
-/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll

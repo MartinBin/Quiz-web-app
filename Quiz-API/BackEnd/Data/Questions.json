@@ -9,9 +9,9 @@
   {
     "Id": 2,
     "Type": 1,
-    "Content": "",
-    "Answers": ["","","",""],
-    "CorrectAnswers": ["",""]
+    "Content": "Select top 2 programming languages acording to IEEE Spectrum in 2024.",
+    "Answers": ["Python","C++","Java","C#"],
+    "CorrectAnswers": ["Python","Java"]
   },
   {
     "Id": 3,
