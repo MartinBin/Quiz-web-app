@@ -20,5 +20,15 @@ public class DbSeeder
             context.Questions.AddRange(questions);
             context.SaveChanges();
         }
+
+        if(!context.Users.Any()){
+            var filePath = Path.Combine(env.ContentRootPath,"Data","LeaderBoard.json");
+            var jsonData = File.ReadAllText(filePath);
+            
+            var users = JsonConvert.DeserializeObject<List<User>>(jsonData);
+            
+            context.Users.AddRange(users);
+            context.SaveChanges();
+        }
     }
 }

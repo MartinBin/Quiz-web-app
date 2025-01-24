@@ -20,7 +20,7 @@ public class QuizController:ControllerBase
         _userService = userService;
     }
     
-    [HttpPost("calculateScore/{email}")]
+    [HttpPost("submit/{email}")]
     public IActionResult calculateScore([FromBody] List<QuestionDto> questions,string email)
     {
         if (email == null) return BadRequest("Email is required");
@@ -54,7 +54,7 @@ public class QuizController:ControllerBase
     [HttpGet("questions")]
     public IActionResult questions()
     {
-        var questions = _questionService.GetQuestions()
+        var questions = _questionService.GetQuestions().OrderBy(x=>x.Type)
             .Select(x=>new{x.Id,x.Type,x.Content,x.Answers});
         return Ok(questions);
     }

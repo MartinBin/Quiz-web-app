@@ -20,7 +20,7 @@ public class UserService
         if (existingUser != null)
         {
             existingUser.Score = score;
-            existingUser.CreatedAt = DateTime.Now;
+            existingUser.CreatedAt = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
             _context.Users.Update(existingUser);
             
             _context.SaveChanges();
@@ -32,7 +32,7 @@ public class UserService
             {
                 Email = email,
                 Score = score,
-                CreatedAt = DateTime.Now
+                CreatedAt = DateTime.Now.ToString("yyyy-MM-dd HH:mm")
             };
             _context.Users.Add(newUser);
             

@@ -1,0 +1,57 @@
+[
+    {
+      "email": "upercase@letters.lt",
+      "score": 698,
+      "createdAt": "2025-01-24 12:47"
+    },
+    {
+      "email": "test9@tes.lt",
+      "score": 200,
+      "createdAt": "2025-01-24 12:51"
+    },
+    {
+      "email": "test3@tes.lt",
+      "score": 116,
+      "createdAt": "2025-01-24 12:49"
+    },
+    {
+      "email": "test4@tes.lt",
+      "score": 116,
+      "createdAt": "2025-01-24 12:50"
+    },
+    {
+      "email": "test@test.lt",
+      "score": 100,
+      "createdAt": "2025-01-24 12:45"
+    },
+    {
+      "email": "test1@tes.lt",
+      "score": 100,
+      "createdAt": "2025-01-24 12:49"
+    },
+    {
+      "email": "test2@tes.lt",
+      "score": 100,
+      "createdAt": "2025-01-24 12:49"
+    },
+    {
+      "email": "test6@tes.lt",
+      "score": 100,
+      "createdAt": "2025-01-24 12:50"
+    },
+    {
+      "email": "test8@tes.lt",
+      "score": 100,
+      "createdAt": "2025-01-24 12:51"
+    },
+    {
+      "email": "test5@tes.lt",
+      "score": 66,
+      "createdAt": "2025-01-24 12:50"
+    },
+    {
+      "email": "test7@tes.lt",
+      "score": 0,
+      "createdAt": "2025-01-24 12:51"
+    }
+]

@@ -19,5 +19,56 @@
     "Content": "What does CPU stand for?",
     "Answers": [],
     "CorrectAnswers": ["Central Processing Unit"]
+  },
+  {
+    "Id": 4,
+    "Type": 0,
+    "Content": "What does HTML stand for?",
+    "Answers": ["Hyper Trainer Marking Language","Hyper Text Marketing Language","Hyper Text Markup Language","Hyper Text Markup Leveler"],
+    "CorrectAnswers": ["Hyper Text Markup Language"]
+  }
+  ,
+  {
+    "Id": 5,
+    "Type": 0,
+    "Content": "What does the term “IDE” stand for in programming?",
+    "Answers": ["Integrated Development Environment","Intelligent Debugging Engine","Internet Development Editor","Interactive Design Engine"],
+    "CorrectAnswers": ["Integrated Development Environment"]
+  }
+  ,
+  {
+    "Id": 6,
+    "Type": 0,
+    "Content": "In object-oriented programming, what is a \"virtual function\"?",
+    "Answers": ["A function with no return type","A placeholder function","A function that can be overridden","A function for debugging"],
+    "CorrectAnswers": ["A function that can be overridden"]
+  },
+  {
+    "Id": 7,
+    "Type": 1,
+    "Content": "Which of the following are valid ways to optimize a program's performance? (Select all that apply)",
+    "Answers": ["Refactor code to reduce redundancy","Use inefficient algorithms to simplify logic","Implement caching for frequently used data","Use multi-threading or asynchronous programming when applicable"],
+    "CorrectAnswers": ["Refactor code to reduce redundancy","Implement caching for frequently used data","Use multi-threading or asynchronous programming when applicable"]
+  },
+  {
+    "Id": 8,
+    "Type": 1,
+    "Content": "Which of the following are common tools or practices in version control systems like Git? (Select all that apply)",
+    "Answers": ["Branching and merging","Commit messages","Debugging directly within Git","Pull requests"],
+    "CorrectAnswers": ["Branching and merging","Commit messages","Pull requests"]
+  },
+  {
+    "Id": 9,
+    "Type": 2,
+    "Content": "What keyword is used in Python to define a function?",
+    "Answers": [],
+    "CorrectAnswers": ["def"]
+  },
+  {
+    "Id": 10,
+    "Type": 2,
+    "Content": "In Git, which command is used to combine changes from a branch into the current branch?",
+    "Answers": [],
+    "CorrectAnswers": ["merge"]
   }
 ]

@@ -40,3 +40,4 @@
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/obj/Debug/net9.0/ref/BackEnd.dll
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Data/Questions.json
 /home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Newtonsoft.Json.dll
+/home/binis/Documents/GitHub/Quiz-web-app/Quiz-API/BackEnd/bin/Debug/net9.0/Data/LeaderBoard.json
