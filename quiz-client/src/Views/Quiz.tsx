@@ -92,7 +92,7 @@ const Quiz = () => {
     }
 
     try{
-      const response = await axios.post(`http://localhost:5296/api/Quiz/submit/${email.toLowerCase()}`,
+        await axios.post(`http://localhost:5296/api/Quiz/submit/${email.toLowerCase()}`,
         selected,
         {
           headers: {
@@ -133,7 +133,7 @@ const Quiz = () => {
     <Container maxWidth="sm">
 
       <Stepper activeStep={activeStep}>
-        {steps.map((label, index) => {
+        {steps.map((label) => {
           const stepProps: { completed?: boolean } = {};
           const labelProps: {
             optional?: React.ReactNode;

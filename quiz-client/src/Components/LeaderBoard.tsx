@@ -1,5 +1,5 @@
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper} from '@mui/material';
-import React, {useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import axios from 'axios';
 
 interface Player{
